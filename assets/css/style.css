@@ -30,3 +30,68 @@ header h1 span::first-letter {
     font-size: 130%;
     color: coral;
 }
+
+iframe {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media screen and (min-width: 575px) {
+    iframe {
+        width: 575px;
+        height: 730px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    iframe {
+        width: 768px;
+        height: 975px;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    iframe {
+        width: 980px;
+        height: 1244px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    iframe {
+        width: 1024px;
+        height: 1300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    iframe {
+        width: 1200px;
+        height: 1523px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    iframe {
+        width: 1300px;
+        height: 1650px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    iframe {
+        width: 1400px;
+        height: 1777px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    iframe {
+        width: 1500px;
+        height: 1904px;
+    }
+}
+
